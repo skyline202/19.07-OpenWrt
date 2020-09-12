@@ -9,11 +9,11 @@
 
 
 # 修改openwrt登陆地址,把下面的192.168.2.2修改成你想要的就可以了
-sed -i 's/192.168.1.1/192.168.2.2/g' ./package/base-files/files/bin/config_generate
+sed -i 's/192.168.1.1/192.168.9.253/g' ./package/base-files/files/bin/config_generate
 
 
 # 修改主机名字，把OpenWrt-123修改你喜欢的就行（不能纯数字或者使用中文）
-sed -i 's/OpenWrt/OpenWrt-123/g' ./package/base-files/files/bin/config_generate
+sed -i 's/OpenWrt/OpenWrt-2.0/g' ./package/base-files/files/bin/config_generate
 
 
 # 修改 banne 文件（不要修改此行代码,修改错误怕弄的diy-lede.sh文件失效,不需要的话前面加#，或者全行代码删除了）
